@@ -24,5 +24,35 @@ namespace praca
         {
             InitializeComponent();
         }
+
+        private void redCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            if (redCheckBox.IsChecked == true){
+                redBox.Visibility = Visibility.Visible;
+            }
+        }
+        private void redCheckBox_UnChecked(object sender, RoutedEventArgs e)
+        {
+            if (redCheckBox.IsChecked == false)
+            {
+                redBox.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void grayCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            if (grayCheckBox.IsChecked == true)
+            {
+                grayBox.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void grayCheckBox_UnChecked(object sender, RoutedEventArgs e)
+        {
+            if (grayCheckBox.IsChecked == false)
+            {
+                grayBox.Visibility = Visibility.Hidden;
+            }
+        }
     }
 }
