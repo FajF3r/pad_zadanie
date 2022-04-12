@@ -27,7 +27,7 @@
             <ListBoxItem Background="LightBlue" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
                 <CheckBox Name="blueCheckBox" Checked="blueCheckBox_Checked" Unchecked="blueCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\student\Downloads\pl.png" Height="40"></Image>
+                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
                         <TextBlock Text="Mak Polny"></TextBlock>
                     </StackPanel>
                 </CheckBox>
