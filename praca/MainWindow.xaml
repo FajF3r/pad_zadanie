@@ -1,0 +1,67 @@
+﻿<Window x:Class="praca.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:praca"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Margin="10,10,0,13" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
+            <ListBoxItem Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <CheckBox Name="redCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <TextBlock Text="Róża"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="LightGray" Foreground="Black" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
+                <CheckBox Name="grayCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <TextBlock Text="tulipan"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="LightBlue" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <CheckBox Name="blueCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\student\Downloads\pl.png" Height="40"></Image>
+                        <TextBlock Text="Mak Polny"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
+                <CheckBox Name="greenCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <TextBlock Text="Mlecz"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="LightYellow" Foreground="Yellow" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
+                <CheckBox Name="yellowCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <TextBlock Text="Słonecznik"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="MediumPurple" Foreground="Orange" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
+                <CheckBox Name="purpleCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <TextBlock Text="Przebiśnieg"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+        </ListBox>
+        <Rectangle Name="redBox" HorizontalAlignment="Left" Height="100" Margin="264,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightCoral"/>
+        <Rectangle Name="grayBox" HorizontalAlignment="Left" Height="100" Margin="400,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightGray"/>
+        <Rectangle Name="blueBox" HorizontalAlignment="Left" Height="100" Margin="535,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightBlue"/>
+        <Rectangle Name="greenBox" HorizontalAlignment="Left" Height="100" Margin="264,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightGreen"/>
+        <Rectangle Name="yellowBox" HorizontalAlignment="Left" Height="100" Margin="400,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightYellow"/>
+        <Rectangle Name="purpleBox" HorizontalAlignment="Left" Height="100" Margin="535,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="MediumPurple"/>
+    </Grid>
+</Window>
