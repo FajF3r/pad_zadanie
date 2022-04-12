@@ -25,7 +25,7 @@
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="LightBlue" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <CheckBox Name="blueCheckBox">
+                <CheckBox Name="blueCheckBox" Checked="blueCheckBox_Checked" Unchecked="blueCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="C:\Users\student\Downloads\pl.png" Height="40"></Image>
                         <TextBlock Text="Mak Polny"></TextBlock>
@@ -33,7 +33,7 @@
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
-                <CheckBox Name="greenCheckBox">
+                <CheckBox Name="greenCheckBox" Checked="greenCheckBox_Checked" Unchecked="greenCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
                         <TextBlock Text="Mlecz"></TextBlock>
@@ -41,7 +41,7 @@
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="LightYellow" Foreground="Yellow" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
-                <CheckBox Name="yellowCheckBox">
+                <CheckBox Name="yellowCheckBox" Checked="yellowCheckBox_Checked" Unchecked="yellowCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
                         <TextBlock Text="Słonecznik"></TextBlock>
@@ -49,7 +49,7 @@
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="MediumPurple" Foreground="Orange" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
-                <CheckBox Name="purpleCheckBox">
+                <CheckBox Name="purpleCheckBox" Checked="purpleCheckBox_Checked" Unchecked="purpleCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
                         <TextBlock Text="Przebiśnieg"></TextBlock>
@@ -57,11 +57,11 @@
                 </CheckBox>
             </ListBoxItem>
         </ListBox>
-        <Rectangle Name="redBox" HorizontalAlignment="Left" Height="100" Margin="264,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightCoral" Visibility="Hidden"/>
-        <Rectangle Name="grayBox" HorizontalAlignment="Left" Height="100" Margin="400,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightGray" Visibility="Hidden"/>
-        <Rectangle Name="blueBox" HorizontalAlignment="Left" Height="100" Margin="535,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightBlue" Visibility="Hidden"/>
-        <Rectangle Name="greenBox" HorizontalAlignment="Left" Height="100" Margin="264,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightGreen" Visibility="Hidden"/>
-        <Rectangle Name="yellowBox" HorizontalAlignment="Left" Height="100" Margin="400,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="LightYellow" Visibility="Hidden"/>
-        <Rectangle Name="purpleBox" HorizontalAlignment="Left" Height="100" Margin="535,141,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="MediumPurple" Visibility="Hidden"/>
+        <Rectangle Name="redBox" HorizontalAlignment="Left" Height="100" Margin="264,10,0,0" VerticalAlignment="Top" Width="100" Fill="LightCoral" Visibility="Hidden" Stroke="DarkRed"  StrokeThickness="4"/>
+        <Rectangle Name="grayBox" HorizontalAlignment="Left" Height="100" Margin="400,10,0,0" VerticalAlignment="Top" Width="100" Fill="LightGray" Visibility="Hidden" Stroke="DarkGray"  StrokeThickness="4"/>
+        <Rectangle Name="blueBox" HorizontalAlignment="Left" Height="100" Margin="535,10,0,0" VerticalAlignment="Top" Width="100" Fill="LightBlue" Visibility="Hidden" Stroke="DarkBlue"  StrokeThickness="4"/>
+        <Rectangle Name="greenBox" HorizontalAlignment="Left" Height="100" Margin="264,141,0,0" VerticalAlignment="Top" Width="100" Fill="LightGreen" Visibility="Hidden" Stroke="DarkGreen"  StrokeThickness="4"/>
+        <Rectangle Name="yellowBox" HorizontalAlignment="Left" Height="100" Margin="400,141,0,0" VerticalAlignment="Top" Width="100" Fill="LightYellow" Visibility="Hidden" Stroke="Yellow"  StrokeThickness="4"/>
+        <Rectangle Name="purpleBox" HorizontalAlignment="Left" Height="100" Margin="535,141,0,0" VerticalAlignment="Top" Width="100" Fill="MediumPurple" Visibility="Hidden" Stroke="Purple"  StrokeThickness="4"/>
     </Grid>
 </Window>
