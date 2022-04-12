@@ -57,7 +57,7 @@
                 </CheckBox>
             </ListBoxItem>
         </ListBox>
-        <Rectangle Name="redBox" HorizontalAlignment="Left" Height="100" Margin="264,10,0,0" VerticalAlignment="Top" Width="100" Fill="LightCoral" Stroke="DarkRed"  StrokeThickness="4"/>
+        <Rectangle Name="redBox" HorizontalAlignment="Left" Height="100" Margin="264,10,0,0" VerticalAlignment="Top" Width="100" Fill="LightCoral" Visibility="Hidden" Stroke="DarkRed"  StrokeThickness="4"/>
         <Rectangle Name="grayBox" HorizontalAlignment="Left" Height="100" Margin="400,10,0,0" VerticalAlignment="Top" Width="100" Fill="LightGray" Visibility="Hidden" Stroke="DarkGray"  StrokeThickness="4"/>
         <Rectangle Name="blueBox" HorizontalAlignment="Left" Height="100" Margin="535,10,0,0" VerticalAlignment="Top" Width="100" Fill="LightBlue" Visibility="Hidden" Stroke="DarkBlue"  StrokeThickness="4"/>
         <Rectangle Name="greenBox" HorizontalAlignment="Left" Height="100" Margin="264,141,0,0" VerticalAlignment="Top" Width="100" Fill="LightGreen" Visibility="Hidden" Stroke="DarkGreen"  StrokeThickness="4"/>
