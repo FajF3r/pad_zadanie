@@ -29,6 +29,7 @@ namespace praca
         {
             if (redCheckBox.IsChecked == true){
                 redBox.Visibility = Visibility.Visible;
+                progressBox.Value++;
             }
         }
         private void redCheckBox_UnChecked(object sender, RoutedEventArgs e)
@@ -36,6 +37,7 @@ namespace praca
             if (redCheckBox.IsChecked == false)
             {
                 redBox.Visibility = Visibility.Hidden;
+                progressBox.Value--;
             }
         }
 
@@ -44,6 +46,7 @@ namespace praca
             if (grayCheckBox.IsChecked == true)
             {
                 grayBox.Visibility = Visibility.Visible;
+                progressBox.Value++;
             }
         }
 
@@ -52,6 +55,7 @@ namespace praca
             if (grayCheckBox.IsChecked == false)
             {
                 grayBox.Visibility = Visibility.Hidden;
+                progressBox.Value--;
             }
         }
 
@@ -60,6 +64,7 @@ namespace praca
             if (blueCheckBox.IsChecked == true)
             {
                 blueBox.Visibility = Visibility.Visible;
+                progressBox.Value++;
             }
         }
 
@@ -68,6 +73,7 @@ namespace praca
             if (blueCheckBox.IsChecked == false)
             {
                 blueBox.Visibility = Visibility.Hidden;
+                progressBox.Value--;
             }
         }
 
@@ -76,6 +82,7 @@ namespace praca
             if (greenCheckBox.IsChecked == true)
             {
                 greenBox.Visibility = Visibility.Visible;
+                progressBox.Value++;
             }
         }
         private void greenCheckBox_UnChecked(object sender, RoutedEventArgs e)
@@ -83,6 +90,7 @@ namespace praca
             if (greenCheckBox.IsChecked == false)
             {
                 greenBox.Visibility = Visibility.Hidden;
+                progressBox.Value--;
             }
         }
 
@@ -91,6 +99,7 @@ namespace praca
             if (yellowCheckBox.IsChecked == true)
             {
                 yellowBox.Visibility = Visibility.Visible;
+                progressBox.Value++;
             }
         }
 
@@ -99,6 +108,7 @@ namespace praca
             if (yellowCheckBox.IsChecked == false)
             {
                 yellowBox.Visibility = Visibility.Hidden;
+                progressBox.Value--;
             }
         }
 
@@ -107,6 +117,7 @@ namespace praca
             if (purpleCheckBox.IsChecked == true)
             {
                 purpleBox.Visibility = Visibility.Visible;
+                progressBox.Value++;
             }
         }
         private void purpleCheckBox_UnChecked(object sender, RoutedEventArgs e)
@@ -114,6 +125,7 @@ namespace praca
             if (purpleCheckBox.IsChecked == false)
             {
                 purpleBox.Visibility = Visibility.Hidden;
+                progressBox.Value--;
             }
         }
     }
