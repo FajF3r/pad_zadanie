@@ -35,7 +35,7 @@
             <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
                 <CheckBox Name="greenCheckBox" Checked="greenCheckBox_Checked" Unchecked="greenCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie" Height="30"></Image>
                         <TextBlock Text="Mlecz"></TextBlock>
                     </StackPanel>
                 </CheckBox>
