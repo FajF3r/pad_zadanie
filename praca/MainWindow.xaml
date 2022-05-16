@@ -11,7 +11,7 @@
             <ListBoxItem Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
                 <CheckBox Name="redCheckBox" Checked="redCheckBox_Checked" Unchecked="redCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie\praca\roza.jpg" Height="30"></Image>
                         <TextBlock Text="Róża"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -19,7 +19,7 @@
             <ListBoxItem Background="LightGray" Foreground="Black" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
                 <CheckBox Name="grayCheckBox" Checked="grayCheckBox_Checked" Unchecked="grayCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie\praca\tulipan.jpg" Height="30"></Image>
                         <TextBlock Text="tulipan"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -27,7 +27,7 @@
             <ListBoxItem Background="LightBlue" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
                 <CheckBox Name="blueCheckBox" Checked="blueCheckBox_Checked" Unchecked="blueCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie\praca\mak.jpg" Height="30"></Image>
                         <TextBlock Text="Mak Polny"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -35,7 +35,7 @@
             <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
                 <CheckBox Name="greenCheckBox" Checked="greenCheckBox_Checked" Unchecked="greenCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie" Height="30"></Image>
+                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie\praca\mlecz.png" Height="30"></Image>
                         <TextBlock Text="Mlecz"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -43,7 +43,7 @@
             <ListBoxItem Background="LightYellow" Foreground="Yellow" FontFamily="Verdana" FontSize="12" FontWeight="Bold">
                 <CheckBox Name="yellowCheckBox" Checked="yellowCheckBox_Checked" Unchecked="yellowCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie\praca\slonecznik.jpg" Height="30"></Image>
                         <TextBlock Text="Słonecznik"></TextBlock>
                     </StackPanel>
                 </CheckBox>
@@ -51,7 +51,7 @@
             <ListBoxItem Background="MediumPurple" Foreground="Orange" FontFamily="Georgia" FontSize="14" FontWeight="Bold">
                 <CheckBox Name="purpleCheckBox" Checked="purpleCheckBox_Checked" Unchecked="purpleCheckBox_UnChecked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\student\Downloads\pl.png" Height="30"></Image>
+                        <Image Source="C:\Users\Macio\source\repos\FajF3r\pad_zadanie\praca\przebisnieg.jpg" Height="30"></Image>
                         <TextBlock Text="Przebiśnieg"></TextBlock>
                     </StackPanel>
                 </CheckBox>
